@@ -71,8 +71,6 @@ void setup() {
     Serial.print(digitalRead(Y));
   }
 
-  //got resultPattern, required match
-  
   char gateOut = compareResult(resultPattern);
   Serial.print("\nCorresponds to: ");
 
